@@ -1,0 +1,25 @@
+//- Setting Few default Variables
+block global_variables
+  -var title= "Home", bodyClass="page", isFront=false, pageId=''
+
+//- Avaiable Blocks
+//-
+//-     meta_tags       // Pass Meta tags
+//-     styles          // To load additional Stylesheets
+//-     footer_script   // Load javascript files in footer section
+
+doctype 5
+html(lang="en")
+  //include ../partials/_head
+
+  body(class='page #{bodyClass}')
+    div.content-wrapper
+      header.header
+        //include ../partials/_header
+
+      section.content
+        block content
+
+      footer.footer
+        //include ../partials/_footer
+
