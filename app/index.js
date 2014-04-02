@@ -58,6 +58,8 @@ var StwebGenerator = yeoman.generators.Base.extend({
     this.mkdir('app/jade/partials');
 
     this.copy('_standard.jade', 'app/jade/layout/_standard.jade');
+    this.copy('_head.jade', 'app/jade/partials/_head.jade');
+    this.copy('_footer.jade', 'app/jade/partials/_footer.jade');
     this.copy('_index.jade', 'app/jade/index.jade');
     this.copy('_app.scss','app/sass/app.scss');
     this.copy('_app.js','app/scripts/app.js');
