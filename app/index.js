@@ -19,7 +19,7 @@ var StwebGenerator = yeoman.generators.Base.extend({
   askFor: function () {
     var done = this.async();
 
-    // have Yeoman greet the user
+    // have Yeoman greet the user [Moshiur]
     this.log(this.yeoman);
 
     // replace it with a short and sweet description of your generator
@@ -84,5 +84,6 @@ var StwebGenerator = yeoman.generators.Base.extend({
     this.copy('csslintrc', '.csslintrc');
   }
 });
+// This portion of the file is created and modified BY Moshiur Rahman Amit
 
 module.exports = StwebGenerator;

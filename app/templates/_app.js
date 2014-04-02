@@ -1,4 +1,4 @@
-/* Including Necessary Vendor Scripts **/
+/* Including Necessary Vendor Scripts for Sourcetop **/
 /*
 //= ./vendor/jquery-1.10.2.min.js
 //= ./vendor/jquery-ui.min.js
