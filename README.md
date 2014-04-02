@@ -1,4 +1,4 @@
-# generator-stweb [![Build Status](https://secure.travis-ci.org/moshiuramit/generator-stweb.png?branch=master)](https://travis-ci.org/moshiuramit/generator-stweb)
+# generator-stweb
 
 > [Yeoman](http://yeoman.io) generator
 
@@ -7,12 +7,12 @@
 
 This generator is a collection of recipes that we use to create frontend html, CSS and JavsScript. This also includes linting tools to make sure our code valids all Web Standards. Includes Packages are :
 
-**Jade** - Used for HTML generation
-**SASS** - Used as CSS Preprocessor
-**Rigger** - Used to combine specific javascript files into a master controller.
-**jshint** - For Javascript linting
-**csslint** - For CSS Linting
-**htmllint** - For W3c Validation
+**Jade** - Used for HTML generation   
+**SASS** - Used as CSS Preprocessor   
+**Rigger** - Used to combine specific javascript files into a master controller.   
+**jshint** - For Javascript linting   
+**csslint** - For CSS Linting   
+**htmllint** - For W3c Validation   
 
 
 #### Quick Commands
@@ -22,6 +22,17 @@ This generator is a collection of recipes that we use to create frontend html, C
 * ``grunt csslint`` CSS Linting
 * ``grunt htmllint`` W3c Validation requires java in your environment
 * ``grunt jshint`` Javascript Linting
+
+
+#### FAQ:
+
+I have started my server then I added a new myfirst.jade inside jade folder. But its not showing up in browser?
+
+>Grunt triggers compilation if changes are made to existing files. As you have created a new file it wont compile. You have to re-run the server. Press **ctrl+c** twice and then execute ```$grunt server```.
+
+I have a quick change need to be done in test.html. Should i edit the specific html file?
+
+>NO. All html files are being converted from jade template file. Any small or big changes has to be made in jade. jade syntax [Visit](http://jade-lang.com)
 
 Big thanks to Yeoman and all the contributors. Check the contents in package.json for all required packages.
 
