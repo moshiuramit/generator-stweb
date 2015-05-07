@@ -82,6 +82,8 @@ var StwebGenerator = yeoman.generators.Base.extend({
     this.copy('gitignore', '.gitignore');
     this.copy('jshintrc', '.jshintrc');
     this.copy('csslintrc', '.csslintrc');
+    this.copy('csslintrc', '.csslintrc');
+    this.copy('_README.md', 'README.md');
   }
 });
 // This portion of the file is created and modified BY Moshiur Rahman Amit
