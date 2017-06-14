@@ -2,7 +2,7 @@
 
 > [Yeoman](http://yeoman.io) generator
 
-![](http://www.sourcetop.com/sites/all/themes/sourcetop/logo.png)
+![](http://sourcetop.com/images/logo.png)
 ## Generator [Sourcetop](http://sourcetop.com) Web
 
 This generator is a collection of recipes that we use to create frontend html, CSS and JavsScript. This also includes linting tools to make sure our code valids all Web Standards. Includes Packages are :
